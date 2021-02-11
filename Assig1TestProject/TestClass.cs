@@ -2,25 +2,15 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Assignment1PROG8170
+namespace Assig1TestProject
 {
-   public class Rectangle
+   
+    public class TestCase
     {
-        private int length, width;
-        public Rectangle()
-        {
-            length = 1;
-            width = 1;
-        }
-        public Rectangle(int length, int width)
-        {
-            this.length = length;
-            this.width = width;
-
-        }
+        private int length=10, width=20;
         public int GetLength()
         {
-            return this.length;
+            return length;
         }
         public int SetLength(int length)
         {
